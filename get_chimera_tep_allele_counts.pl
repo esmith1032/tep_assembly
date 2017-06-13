@@ -173,9 +173,9 @@ foreach my $sample (keys %sample_snp_info)
   }
 sub prepareDbh
   {
-  my $username = "david";
-  my $password = "drosophila";
-  my $database = "tapl";
+  my $username = #REDACTED#;
+  my $password = #REDACTED#;
+  my $database = #REDACTED#;
   
   
   my $dsn = "DBI:mysql:$database:localhost";
